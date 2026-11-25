@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Scripture Reader | Scripture Study Helper</title>
+    <meta
+      name="description"
+      content="Look up Bible passages, tap any word for its definition, and save favorite verses with personal notes."
+    />
+    <meta name="author" content="Samuel Emeka Innocent" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Merriweather:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script type="module" src="js/main.js"></script>
+  </head>
+
+  <body>
+    <header class="site-header">
+      <a href="index.html" class="brand">Scripture Study Helper</a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="index.html" aria-current="page">Reader</a>
+        <a href="saved.html">Saved &amp; Notes</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Scripture Reader</h1>
+
+      <form id="search-form" class="search">
+        <label for="reference" class="visually-hidden">Scripture reference</label>
+        <input
+          id="reference"
+          name="reference"
+          type="search"
+          placeholder="e.g. John 3:16 or Psalm 23"
+          required
+        />
+
+        <label for="translation" class="visually-hidden">Translation</label>
+        <select id="translation" name="translation">
+          <option value="kjv">KJV</option>
+          <option value="web">WEB</option>
+          <option value="asv">ASV</option>
+          <option value="bbe">BBE</option>
+        </select>
+
+        <button type="submit">Search</button>
+      </form>
+
+      <article id="passage" class="passage card" aria-live="polite">
+        <p class="hint">Search for a passage to begin your study.</p>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Scripture Study Helper &middot; Samuel Emeka Innocent</p>
+    </footer>
+  </body>
+</html>

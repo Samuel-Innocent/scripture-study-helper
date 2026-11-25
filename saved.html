@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Study Library | Scripture Study Helper</title>
+    <meta
+      name="description"
+      content="Your saved scripture verses, topic tags, and personal study notes."
+    />
+    <meta name="author" content="Samuel Emeka Innocent" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Merriweather:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <a href="index.html" class="brand">Scripture Study Helper</a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="index.html">Reader</a>
+        <a href="saved.html" aria-current="page">Saved &amp; Notes</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>My Study Library</h1>
+
+      <div class="search">
+        <label for="library-search" class="visually-hidden">Search saved verses and notes</label>
+        <input id="library-search" type="search" placeholder="Search notes or verses..." />
+      </div>
+
+      <ul id="saved-list" class="saved-list">
+        <li class="card hint">You haven't saved any verses yet.</li>
+      </ul>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Scripture Study Helper &middot; Samuel Emeka Innocent</p>
+    </footer>
+  </body>
+</html>
