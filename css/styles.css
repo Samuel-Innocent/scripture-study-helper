@@ -34,12 +34,13 @@ body {
 }
 
 .brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   color: #fff;
   font-family: var(--font-serif);
   font-weight: 700;
   text-decoration: none;
-  border-left: 4px solid var(--accent);
-  padding-left: 0.5rem;
 }
 
 .site-nav {
