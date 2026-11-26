@@ -1,0 +1,27 @@
+{
+  "name": "scripture-study-helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samuel-Innocent/scripture-study-helper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Samuel-Innocent/scripture-study-helper/issues"
+  },
+  "homepage": "https://github.com/Samuel-Innocent/scripture-study-helper#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.15.0",
+    "globals": "^17.14.0"
+  }
+}
